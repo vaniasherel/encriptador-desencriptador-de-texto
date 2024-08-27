@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<header>
+    <h1>Encriptador de Texto</h1>
+</header>
+<body>
+        <img class="logo" src="/imagenes/logo.png" alt="logo de alura" >
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos </h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" id="encryptedId" cols="30" rows="10"></textarea>
+            
+            <div>
+                <button class="copiar" id="btnCopiar" onclick="btnCopiar, alert()">Copiar</button>  
+                
+            </div>
+        </section>
+        <section>
+            <div class="social">
+                <a href="https://github.com/vaniasherel" target="_blank"><img src="/imagenes/github.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+               
+                <a href="https://www.linkedin.com/in/vaniacruz/" target="_blank"><img src="/imagenes/linkedin.gif" alt="LinkedIn" loading="lazy" class="socicon"></a>
+               
+                <a href="https://www.instagram.com/vaniasherel?igsh=dmtkMnA4bXNvNzIw" target="_blank"><img src="/imagenes/instagram.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+            </div>
+        </section>
+    </main>
+    <footer> 
+        Designed by Vania Sherel<a href="https://github.com/vaniasherel"
+        target="_blank"> github </a>
+    </footer>
+<script src="/script.js"></script>
+</body>
+</html>
